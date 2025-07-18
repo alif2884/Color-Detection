@@ -3,19 +3,21 @@
 This is a simple Python program I created in high school to detect the color of a pixel when you click on it in an image.  
 It shows the closest color name and its RGB values using OpenCV and pandas.
 
+---
+
 ## 🔧 Requirements
 
-- Python 3.x
-- `opencv-python`
-- `pandas`
+- Python 3.x  
+- `opencv-python`  
+- `pandas`  
 - A `colors.csv` file containing color names and RGB values (already included in this repo)
 
-Install the required packages using pip:
+Install the required packages using:
 
 ```bash
 pip install opencv-python pandas
 ▶️ How to Run
-Open your terminal (or Command Prompt), navigate to the project directory, and run:
+Open your terminal (or Command Prompt), navigate to the project folder, and run:
 
 bash
 Copy
@@ -27,12 +29,12 @@ Arguments:
 
 -a → Image format (e.g., jpg, png)
 
-🖱️ How to Use the Program
-Double Left Click: Detects the RGB values of the selected pixel and shows the closest color name.
+🖱️ How to Use
+Double Left Click on any part of the image: detects and displays the RGB value and closest color name.
 
-Right Click: (Optional) Used for clearing or exiting depending on implementation.
+Right Click: optional, may be used to exit or reset.
 
-Enter Key: May be used to confirm or save (optional feature).
+Enter Key: optional, may trigger save or exit (if implemented).
 
 📁 Example
 bash
@@ -40,10 +42,10 @@ Copy
 Edit
 python color_detection.py -i a.jpg -a jpg
 🧠 What I Learned
-How to work with images in Python using OpenCV
+Working with images in Python using OpenCV
 
-How to read and search color datasets using pandas
+Reading and searching color datasets using pandas
 
-How to handle mouse events and command-line arguments
+Handling mouse events and CLI arguments
 
-How to build a small but interactive and useful tool
+Building small interactive tools with real-world applications
