@@ -14,14 +14,11 @@ It shows the closest color name and its RGB values using OpenCV and pandas.
 
 Install the required packages using:
 
-```bash
 pip install opencv-python pandas
 ▶️ How to Run
 Open your terminal (or Command Prompt), navigate to the project folder, and run:
 
-bash
-Copy
-Edit
+
 python color_detection.py -i <image_path> -a <image_format>
 Arguments:
 
