@@ -1,10 +1,3 @@
-# 🎨 Color Detection Tool (High School Project)
-
-This is a simple Python program I created in high school to detect the color of a pixel when you click on it in an image.  
-It shows the closest color name and its RGB values using OpenCV and pandas.
-
----
-
 ## 🔧 Requirements
 
 - Python 3.x  
