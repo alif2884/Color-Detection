@@ -15,7 +15,7 @@ It shows the closest color name and its RGB values using OpenCV and pandas.
 Install the required packages using:
 
 pip install opencv-python pandas
-▶️ How to Run
+###▶️ How to Run
 Open your terminal (or Command Prompt), navigate to the project folder, and run:
 
 
