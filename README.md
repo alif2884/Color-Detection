@@ -7,7 +7,6 @@ This project was my first experience working with images, pixel values, and colo
 
 When you double-click anywhere on the image window, the program reads the pixel’s RGB values and matches it to the closest color name in a CSV file.
 
----
 
 ## 🔧 Requirements
 
@@ -22,8 +21,6 @@ Install the required packages using:
 pip install opencv-python pandas
 ```
 
----
-
 ## ▶️ How to Run
 
 Open your terminal (or Command Prompt), navigate to the project folder, and run:
@@ -37,7 +34,6 @@ python color_detection.py -i <image_path> -a <image_format>
 - `-i` → Path to the image file (e.g., `a.jpg`, `b.png`)
 - `-a` → Image format (e.g., `jpg`, `png`)
 
----
 
 ## 🖱️ How to Use
 
@@ -45,7 +41,6 @@ python color_detection.py -i <image_path> -a <image_format>
 - **Right Click**: optional, may be used to exit or reset.
 - **Enter Key**: optional, may trigger save or exit (if implemented).
 
----
 
 ## 📁 Example
 
@@ -56,5 +51,3 @@ python color_detection.py -i a.jpg -a jpg
 
 https://github.com/user-attachments/assets/36afca32-9c3d-45f7-a961-c9334c6792a2
 
-
----
