@@ -1,3 +1,12 @@
+# 🎨 Color Detection Tool using OpenCV and Pandas
+
+A simple Python project built during high school that allows users to detect the color name of any pixel in an image using OpenCV and a custom color dataset.
+
+## 🧠 Overview
+This project was my first experience working with images, pixel values, and color recognition.
+
+When you double-click anywhere on the image window, the program reads the pixel’s RGB values and matches it to the closest color name in a CSV file.
+
 ## 🔧 Requirements
 
 - Python 3.x  
