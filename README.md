@@ -6,7 +6,9 @@ A simple Python project built during high school that allows users to detect the
 This project was my first experience working with images, pixel values, and color recognition.
 
 When you double-click anywhere on the image window, the program reads the pixel’s RGB values and matches it to the closest color name in a CSV file.
-
+ 
+--- 
+ 
 ## 🔧 Requirements
 
 - Python 3.x  
@@ -56,10 +58,3 @@ https://github.com/user-attachments/assets/4f99145c-2adb-4803-879d-4915cae2e512
 
 
 ---
-
-## 🧠 What I Learned
-
-- Working with images in Python using OpenCV  
-- Reading and searching color datasets using pandas  
-- Handling mouse events and CLI arguments  
-- Building small interactive tools with real-world applications
