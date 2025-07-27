@@ -7,6 +7,8 @@ This project was my first experience working with images, pixel values, and colo
 
 When you double-click anywhere on the image window, the program reads the pixel’s RGB values and matches it to the closest color name in a CSV file.
 
+---
+
 ## 🔧 Requirements
 
 - Python 3.x  
@@ -56,10 +58,3 @@ https://github.com/user-attachments/assets/36afca32-9c3d-45f7-a961-c9334c6792a2
 
 
 ---
-
-## 🧠 What I Learned
-
-- Working with images in Python using OpenCV  
-- Reading and searching color datasets using pandas  
-- Handling mouse events and CLI arguments  
-- Building small interactive tools with real-world applications
