@@ -51,6 +51,10 @@ python color_detection.py -i <image_path> -a <image_format>
 python color_detection.py -i a.jpg -a jpg
 ```
 
+
+https://github.com/user-attachments/assets/4f99145c-2adb-4803-879d-4915cae2e512
+
+
 ---
 
 ## 🧠 What I Learned
