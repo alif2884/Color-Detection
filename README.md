@@ -1,25 +1,41 @@
 # 🎨 Color Detection Tool using OpenCV and Pandas
 
-A simple Python project built during high school that allows users to detect the color name of any pixel in an image using OpenCV and a custom color dataset.
+A simple image processing tool in Python that identifies the name of any color in an image by clicking on pixels — built using OpenCV, Pandas, and a custom color dataset.
+
+---
 
 ## 🧠 Overview
-This project marked my first hands-on experience with image processing, pixel analysis, and color recognition in Python.
 
-When you double-click anywhere on the image window, the program reads the pixel’s RGB values and matches it to the closest color name in a CSV file.
- 
---- 
- 
+This project was my first practical dive into image processing and color recognition.  
+The goal was to interactively analyze image pixels and map their RGB values to known color names using a CSV dataset.  
+It introduced me to concepts like event handling, coordinate tracking, and real-time GUI feedback in OpenCV.
+
+---
+
+## 🔎 Features
+
+- Real-time color name detection by double-clicking on any pixel
+- RGB value extraction from image regions
+- Matching closest color from dataset
+- Interactive image window with user input
+- Command-line arguments for image selection
+
+---
+
 ## 🔧 Technologies / Topics
 
-- Python  
+- Python
 - OpenCV
-- pandas 
+- Pandas
 - argparse
+- CSV-based color dataset
+
 ---
 
 ## ⚙️ How to Use
 
-1. **Open your terminal (or Command Prompt), navigate to the project folder, and run:**
+1. Clone the repo and navigate to the project folder.
+2. Run the script with the following command:
 
    ```bash
    python color_detection.py -i <image_path> -a <image_format>
@@ -31,18 +47,21 @@ When you double-click anywhere on the image window, the program reads the pixel�
    python color_detection.py -i a.jpg -a jpg
    ```
 
-   **Arguments:**
+3. Interaction:
 
-   - `-i` → Path to the image file (e.g., `a.jpg`, `b.png`)
-   - `-a` → Image format (e.g., `jpg`, `png`)
+   - **Double Left Click** → Detects and displays RGB value + closest color name
 
-2. **After the program runs, you can perform the following actions:**
+   - **Right Click / Enter** → May exit or reset (depending on implementation)
 
-   - **Double Left Click** on any part of the image: detects and displays the RGB value and closest color name.
+---
 
-   - **Right Click**: optional, may be used to exit or reset.
+## 📂 Files
 
-   - **Enter Key**: optional, may trigger save or exit (if implemented).
+- ```color_detection.py``` – Main script for running the application
+
+- ```colors.csv``` – Dataset mapping RGB values to color names
+
+- Sample images (optional)
 
 ---
 
@@ -50,5 +69,12 @@ When you double-click anywhere on the image window, the program reads the pixel�
 
 https://github.com/user-attachments/assets/4f99145c-2adb-4803-879d-4915cae2e512
 
-
 ---
+
+## 📎 Notes
+
+- Make sure all dependencies (```opencv-python```, ```pandas```) are installed.
+
+- The CSV file should remain in the same directory as the script.
+
+- Originally created as a high school project to explore OpenCV and color theory.
