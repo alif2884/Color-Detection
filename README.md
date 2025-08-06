@@ -45,9 +45,11 @@ pip install opencv-python pandas
 
 2. **After the program runs, you can perform the following actions:**
 
- - **Double Left Click** on any part of the image: detects and displays the RGB value and closest color name.
- - **Right Click**: optional, may be used to exit or reset.
- - **Enter Key**: optional, may trigger save or exit (if implemented).
+   - **Double Left Click** on any part of the image: detects and displays the RGB value and closest color name.
+
+   - **Right Click**: optional, may be used to exit or reset.
+
+   - **Enter Key**: optional, may trigger save or exit (if implemented).
 
 ---
 
