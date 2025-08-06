@@ -9,19 +9,12 @@ When you double-click anywhere on the image window, the program reads the pixel�
  
 --- 
  
-## 🔧 Requirements
+## 🔧 Technologies / Topics
 
-- Python 3.x  
-- `opencv-python`  
-- `pandas`  
-- A `colors.csv` file containing color names and RGB values (already included in this repo)
-
-Install the required packages using:
-
-```bash
-pip install opencv-python pandas
-```
-
+- Python  
+- OpenCV
+- pandas 
+- argparse
 ---
 
 ## ⚙️ How to Use
