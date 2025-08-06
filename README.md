@@ -28,26 +28,26 @@ pip install opencv-python pandas
 
 1. **Open your terminal (or Command Prompt), navigate to the project folder, and run:**
 
-```bash
-python color_detection.py -i <image_path> -a <image_format>
-```
+ ```bash
+ python color_detection.py -i <image_path> -a <image_format>
+ ```
 
-Example:
+ Example:
 
-```bash
-python color_detection.py -i a.jpg -a jpg
-```
+ ```bash
+ python color_detection.py -i a.jpg -a jpg
+ ```
 
-**Arguments:**
+ **Arguments:**
 
-- `-i` → Path to the image file (e.g., `a.jpg`, `b.png`)
-- `-a` → Image format (e.g., `jpg`, `png`)
+ - `-i` → Path to the image file (e.g., `a.jpg`, `b.png`)
+ - `-a` → Image format (e.g., `jpg`, `png`)
 
 2. **After the program runs, you can perform the following actions:**
 
-- **Double Left Click** on any part of the image: detects and displays the RGB value and closest color name.
-- **Right Click**: optional, may be used to exit or reset.
-- **Enter Key**: optional, may trigger save or exit (if implemented).
+ - **Double Left Click** on any part of the image: detects and displays the RGB value and closest color name.
+ - **Right Click**: optional, may be used to exit or reset.
+ - **Enter Key**: optional, may trigger save or exit (if implemented).
 
 ---
 
